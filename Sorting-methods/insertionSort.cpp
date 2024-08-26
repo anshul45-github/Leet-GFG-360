@@ -14,8 +14,7 @@ class Solution
         }
         arr[j + 1] = key;
     }
-     public:
-    //Function to sort the array using insertion sort algorithm.
+    public:
     void insertionSort(int arr[], int n)
     {
         for(int i = 1; i < n; i++) {
