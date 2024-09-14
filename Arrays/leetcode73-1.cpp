@@ -1,4 +1,4 @@
-// SC : O(m + n)
+// In-place, SC : O(m + n)
 #include<bits/stdc++.h>
 using namespace std;
 
