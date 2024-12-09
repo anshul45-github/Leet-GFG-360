@@ -1,4 +1,4 @@
-// TC : O(N), SC : O(1)
+// TC : O(N), SC : O(logN)
 #include<bits/stdc++.h>
 using namespace std;
 
