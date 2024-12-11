@@ -5,3 +5,5 @@
 | Kadane's Algorithm                          | `leetcode53-1.cpp`, `leetcode152.cpp`       | `Arrays`          |
 | Dutch National Flag Problem                          | `leetcode75.cpp`       | `Arrays`          |
 | Moore's Voting Algorithm                         | `leetcode169.cpp`, `leetcode229.cpp`       | `Arrays`          |
+| Tarjan's Algorithm                         | `leetcode1192.cpp`, `articulationPoint.cpp`       | `Graphs`|
+| Kosaraju's Algorithm                         | `stronglyConnected.cpp`       | `Graphs`|
