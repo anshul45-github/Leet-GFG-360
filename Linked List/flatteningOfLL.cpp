@@ -17,8 +17,6 @@ class Solution {
         Node* curr = flattenedList;
         while(n) {
             int minNode = 0;
-            while(!v[minNode])
-                minNode++;
             for(int i = 0; i < v.size(); i++) {
                 if(v[i] && (v[i] -> data) < (v[minNode] -> data))
                     minNode = i;
@@ -26,8 +24,10 @@ class Solution {
             curr -> bottom = new Node(v[minNode] -> data);
             curr = curr -> bottom;
             v[minNode] = v[minNode] -> bottom;
-            if(!v[minNode])
+            if(!v[minNode]) {
+                swap(v[minNode], v[n - 1]);
                 n--;
+            }
         }
         curr = flattenedList;
         flattenedList = flattenedList -> bottom;
