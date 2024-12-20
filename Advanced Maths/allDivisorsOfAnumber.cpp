@@ -1,3 +1,4 @@
+// TC : O (sqrt n), SC : O(sqrt n)
 #include<bits/stdc++.h>
 using namespace std;
 
