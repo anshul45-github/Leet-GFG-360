@@ -1,3 +1,4 @@
+// The functions get and put run in O(1) average time complexity.
 #include<bits/stdc++.h>
 using namespace std;
 
