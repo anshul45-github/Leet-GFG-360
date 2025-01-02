@@ -2,10 +2,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// } Driver Code Ends
-//User function Template for C++
+// User function Template for C++
 
-/*struct node {
+/*
+struct node {
   int data;
   struct node *left;
   struct node *right;
@@ -19,7 +19,8 @@ struct node *newNode(int data) {
   node->left = NULL;
   node->right = NULL;
   return (node);
-}*/
+}
+*/
 
 class Solution{
 public:
