@@ -1,4 +1,4 @@
-// Iterative solution
+// Iterative solution using 1 stack
 #include<bits/stdc++.h>
 using namespace std;
 
