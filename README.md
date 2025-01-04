@@ -9,3 +9,5 @@
 | Kosaraju's Algorithm                         | `stronglyConnected.cpp`       | `Graphs`|
 | Morris Traversal                         | `leetcode94-3.cpp`, `leetcode114.cpp`, `leetcode144-3.cpp`       | `Binary Trees`|
 | Rat in a Maze                         | `ratInAmaze.cpp`       | `Recursion`|
+| N-Queen Problem                         | `leetcode51.cpp`       | `Recursion`|
+| Sudoku Solver                         | `leetcode37.cpp`       | `Recursion`|
