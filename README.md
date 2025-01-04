@@ -12,4 +12,5 @@
 | N-Queen Problem                         | `leetcode51.cpp`       | `Recursion`|
 | Sudoku Solver                         | `leetcode37.cpp`       | `Recursion`|
 | Book Allocation Problem                         | `bookAllocationProblem.cpp`       | `Binary Search`|
-| Largest Rectangle in a Histogram                         | `leetcode84.cpp`       | `Stack & Queues`|
+| Largest Rectangle in a Histogram                         | `leetcode84.cpp`       | `Stack and Queues`|
+| Phone Keypad Problem                         | `leetcode17.cpp`       | `Recursion`|
