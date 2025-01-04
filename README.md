@@ -11,3 +11,4 @@
 | Rat in a Maze                         | `ratInAmaze.cpp`       | `Recursion`|
 | N-Queen Problem                         | `leetcode51.cpp`       | `Recursion`|
 | Sudoku Solver                         | `leetcode37.cpp`       | `Recursion`|
+| Book Allocation Problem                         | `bookAllocationProblem.cpp`       | `Binary Search`|
