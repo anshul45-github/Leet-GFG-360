@@ -17,14 +17,6 @@ class Solution {
         }
     }
   public:
-    vector<vector<int>> printGraph(int V, vector<vector<int>>& edges) {
-        vector<vector<int>> adjList(V);
-        for(int i = 0; i < edges.size(); i++) {
-            adjList[edges[i][0]].push_back(edges[i][1]);
-            adjList[edges[i][1]].push_back(edges[i][0]);
-        }
-        return adjList;
-    }
     vector<int> bfsOfGraph(vector<vector<int>> &adj) {
         vector<bool> vis(adj.size(), false);
         vector<int> bfs;
