@@ -15,3 +15,6 @@
 | Largest Rectangle in a Histogram                         | `leetcode84.cpp`       | `Stack and Queues`|
 | Phone Keypad Problem                         | `leetcode17.cpp`       | `Recursion`|
 | Largest BST in a Binary Tree                         | `leetcode17.cpp`       | `Binary Search Trees`|
+| BFS Traversal in Graph | `bfsOfGraph.cpp` | `Graphs` |
+| DFS Traversal in Graph | `dfsOfGraph.cpp` | `Graphs` |
+| Cycle Detection in Undirected Graphs | `undirectedGraphCycle-1.cpp`, `undirectedGraphCycle-2.cpp` | `Graphs` |
