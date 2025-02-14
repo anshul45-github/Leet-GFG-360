@@ -13,6 +13,10 @@ If you’re here, either you love DSA (*weird flex*) or you’re in survival mod
 - 🔹 **Two Sum** (*leetcode1*)
 - 🔹 **Best Time to Buy and Sell Stock** (*leetcode121*)
 - 🔹 **Maximum Subarray** (*leetcode53*)
+- 🔹 **Maximum Product Subarray** (*leetcode152*)
+- 🔹 **Find Minimum in Rotated Sorted Array** (*leetcode153*)
+- 🔹 **Search in Rotated Sorted Array** (*leetcode33*)
+- 🔹 **3Sum** (*leetcode15*)
 
 ---
 
