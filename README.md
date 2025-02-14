@@ -10,5 +10,23 @@ If you’re here, either you love DSA (*weird flex*) or you’re in survival mod
 ## 📌 Standard Problems Covered  
 
 ### 📍 Arrays & Strings – The Warm-up  
-- 🔹 **Two Sum** 
-- 🔹 **Best Time to Buy and Sell Stock**
+- 🔹 **Two Sum** (*leetcode1*)
+- 🔹 **Best Time to Buy and Sell Stock** (*leetcode121*)
+- 🔹 **Maximum Subarray** (*leetcode53*)
+
+---
+
+## 💡 Contributions?
+
+If you have **better** solutions (or just want to share your suffering), feel free to **open a PR!**
+Let’s make this repo a **DSA haven** (*or a therapy group*)
+
+---
+
+## 📢 Disclaimer
+This repo won’t guarantee you a FAANG offer, but it will give you enough problems to make your brain hurt in a productive way. Proceed with caution. 😆
+
+---
+
+## 🌟 Happy Coding & May Your Runtime Always Be O(1)! 🚀
+## 🌟 Star this repo if it saves you from an interview disaster.
