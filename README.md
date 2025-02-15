@@ -23,6 +23,11 @@ If you’re here, either you love DSA (*weird flex*) or you’re in survival mod
 - 🔹 **Spiral Matrix** (*leetcode54*)
 - 🔹 **Rotate Image** (*leetcode48*)
 - 🔹 **Word Search** (*leetcode79*)
+- 🔹 **Pascal's Triangle** (*leetcode118*)
+- 🔹 **Next Permutation** (*leetcode31*)
+- 🔹 **Sort Colors** (*leetcode75*)
+- 🔹 **Maximum Subarray** (*leetcode53*)
+- 🔹 **Merge Sorted Array** (*leetcode88*)
 
 ### 📍 Bit Manipulation 
 - 🔹 **Missing Number** (*leetcode268*)
