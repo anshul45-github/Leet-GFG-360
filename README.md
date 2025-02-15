@@ -2,8 +2,7 @@
 
 > *"Solving DSA problems is like debugging your life—sometimes, you just need a better approach!"*  
 
-Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to DSA problems from **LeetCode, GeeksforGeeks, and Coding Ninjas (Code360)**.  
-If you’re here, either you love DSA (*weird flex*) or you’re in survival mode for **placements/internships**—either way, welcome to the club. 🎉  
+Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to DSA problems from **LeetCode, GeeksforGeeks, and Coding Ninjas (Code360)**. If you’re here, either you love DSA (*weird flex*) or you’re in survival mode for **placements/internships**—either way, welcome to the club. 🎉  
 
 ---
 
@@ -90,8 +89,7 @@ If you’re here, either you love DSA (*weird flex*) or you’re in survival mod
 
 ## 💡 Contributions?
 
-If you have **better** solutions (or just want to share your suffering), feel free to **open a PR!**
-Let’s make this repo a **DSA haven** (*or a therapy group*)
+If you have **better** solutions (or just want to share your suffering), feel free to **open a PR!**. Let’s make this repo a **DSA haven** (*or a therapy group*)
 
 ---
 
