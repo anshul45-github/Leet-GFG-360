@@ -27,6 +27,11 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - 🔹 **Sort Colors** (*leetcode75*)
 - 🔹 **Maximum Subarray** (*leetcode53*)
 - 🔹 **Merge Sorted Array** (*leetcode88*)
+- 🔹 **Search a 2D Matrix** (*leetcode74*)
+- 🔹 **Pow(x, n)** (*leetcode50*)
+- 🔹 **Majority Element** (*leetcode169*)
+- 🔹 **Reverse Pairs** (*leetcode493*)
+- 🔹 **4Sum** (*leetcode18*)
 
 ### 📍 Bit Manipulation 
 - 🔹 **Missing Number** (*leetcode268*)
