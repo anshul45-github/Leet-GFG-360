@@ -6,6 +6,19 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 
 ---
 
+## 📚 Problem List
+
+### 🔢 Arrays  
+- [283. Move Zeroes to End](https://leetcode.com/problems/move-zeroes/description/) – pushing zeroes like emotional baggage.
+
+### 🔠 Strings
+- [38. Count And Say](https://leetcode.com/problems/count-and-say/) - the OG storytelling problem, but make it iterative.
+
+### ➗ Math
+- [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/) - when even people problems become math problems.
+
+---
+
 ## 💡 Contributions?
 
 If you have **better** solutions (or just want to share your suffering), feel free to **open a PR!**. Let’s make this repo a **DSA haven** (*or a therapy group*)
