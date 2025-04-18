@@ -1,4 +1,7 @@
-// TC : O(N), SC : O(1)
+// https://leetcode.com/problems/majority-element-ii/
+// 229. Majority Element II
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 
