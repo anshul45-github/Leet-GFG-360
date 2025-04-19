@@ -18,6 +18,9 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 ### 🔍 Binary Search – Because Brute Force is So Last Season
 - [34. Find the first or last occurrence of a given number in a sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 - [162. Find peak element](https://leetcode.com/problems/find-peak-element/)
+- [875. Koko eating bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
+- [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+- [4. Median of 2 sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
 
 ### 🔠 Strings
 - [38. Count And Say](https://leetcode.com/problems/count-and-say/)
