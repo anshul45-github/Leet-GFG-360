@@ -21,9 +21,12 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [875. Koko eating bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
 - [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 - [4. Median of 2 sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
+- [1901. Find Peak Element (2D Matrix)](https://leetcode.com/problems/find-a-peak-element-ii/description/)
+- [2563. Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)
 
 ### 🔠 Strings
 - [38. Count And Say](https://leetcode.com/problems/count-and-say/)
+- [3517. Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/)
 
 ### ➗ Math
 - [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/)
