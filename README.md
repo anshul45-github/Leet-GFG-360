@@ -13,6 +13,11 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [268. Find Missing Number in an Array](https://leetcode.com/problems/missing-number/description/)
 - [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)
 - [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/)
+- [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+
+### 🔍 Binary Search – Because Brute Force is So Last Season
+- [34. Find the first or last occurrence of a given number in a sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
+- [162. Find peak element](https://leetcode.com/problems/find-peak-element/)
 
 ### 🔠 Strings
 - [38. Count And Say](https://leetcode.com/problems/count-and-say/)
