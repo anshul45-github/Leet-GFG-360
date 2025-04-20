@@ -9,27 +9,34 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 ## 📚 Problem List
 
 ### 🔢 Arrays  
+- [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+- [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)
 - [283. Move Zeroes to End](https://leetcode.com/problems/move-zeroes/description/)
 - [268. Find Missing Number in an Array](https://leetcode.com/problems/missing-number/description/)
-- [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)
 - [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/)
-- [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 
 ### 🔍 Binary Search – Because Brute Force is So Last Season
+- [4. Median of 2 sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
 - [34. Find the first or last occurrence of a given number in a sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 - [162. Find peak element](https://leetcode.com/problems/find-peak-element/)
 - [875. Koko eating bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
 - [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
-- [4. Median of 2 sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
 - [1901. Find Peak Element (2D Matrix)](https://leetcode.com/problems/find-a-peak-element-ii/description/)
 - [2563. Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)
 
 ### 🔠 Strings
 - [38. Count And Say](https://leetcode.com/problems/count-and-say/)
+- [151. Reverse Every Word in A String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
 - [3517. Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/)
 
 ### ➗ Math
 - [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/)
+
+### 🔗 Linked List
+- [237. Deleting a node in LinkedList](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
+
+### 🤑 Greedy
+- [781. Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)
 
 ---
 

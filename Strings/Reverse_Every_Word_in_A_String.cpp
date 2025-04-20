@@ -1,4 +1,7 @@
-// In-place with O(1) extra space
+// https://leetcode.com/problems/reverse-words-in-a-string/description/
+// 151. Reverse Words in a String
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 
