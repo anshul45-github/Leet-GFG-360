@@ -11,29 +11,32 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 ### 🔢 Arrays  
 - [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)
-- [283. Move Zeroes to End](https://leetcode.com/problems/move-zeroes/description/)
-- [268. Find Missing Number in an Array](https://leetcode.com/problems/missing-number/description/)
-- [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/)
+- [283. Move Zeroes to End](https://leetcode.com/problems/move-zeroes/)
+- [268. Find Missing Number in an Array](https://leetcode.com/problems/missing-number/)
+- [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
+- [1399. Count Largest Group](https://leetcode.com/problems/count-largest-group/)
+- [2145. Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/)
 
 ### 🔍 Binary Search – Because Brute Force is So Last Season
-- [4. Median of 2 sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
-- [34. Find the first or last occurrence of a given number in a sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
+- [4. Median of 2 sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+- [34. Find the first or last occurrence of a given number in a sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 - [162. Find peak element](https://leetcode.com/problems/find-peak-element/)
-- [875. Koko eating bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
+- [875. Koko eating bananas](https://leetcode.com/problems/koko-eating-bananas/)
 - [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
-- [1901. Find Peak Element (2D Matrix)](https://leetcode.com/problems/find-a-peak-element-ii/description/)
+- [1901. Find Peak Element (2D Matrix)](https://leetcode.com/problems/find-a-peak-element-ii/)
 - [2563. Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)
 
 ### 🔠 Strings
 - [38. Count And Say](https://leetcode.com/problems/count-and-say/)
-- [151. Reverse Every Word in A String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
-- [3517. Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/)
+- [151. Reverse Every Word in A String](https://leetcode.com/problems/reverse-words-in-a-string/)
+- [3517. Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/)
 
 ### ➗ Math
 - [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/)
 
 ### 🔗 Linked List
-- [237. Deleting a node in LinkedList](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
+- [237. Deleting a node in LinkedList](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+- [328. Seggregate odd and even nodes in LL](https://leetcode.com/problems/odd-even-linked-list/)
 
 ### 🤑 Greedy
 - [781. Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)
