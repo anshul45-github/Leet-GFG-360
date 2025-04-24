@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/binary-subarrays-with-sum/
+// 930. Binary Subarrays With Sum
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/longest-repeating-character-replacement/
+// 424. Longest Repeating Character Replacement
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
+// 1423. Maximum Points You Can Obtain from Cards
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 

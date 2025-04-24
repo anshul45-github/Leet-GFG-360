@@ -1,3 +1,7 @@
+// https://www.geeksforgeeks.org/problems/fruit-into-baskets-1663137462/1
+// Find length of the longest subarray containing atmost two distinct integers
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 

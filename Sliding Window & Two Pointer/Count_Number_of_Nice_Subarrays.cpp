@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/count-number-of-nice-subarrays/
+// 1248. Count Number of Nice Subarrays
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 

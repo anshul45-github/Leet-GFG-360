@@ -35,11 +35,24 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/)
 
 ### 🔗 Linked List
+- [19. Remove Nth node from the back of the LL](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [160. Find the intersection point of Y LL](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 - [237. Deleting a node in LinkedList](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 - [328. Seggregate odd and even nodes in LL](https://leetcode.com/problems/odd-even-linked-list/)
 
 ### 🤑 Greedy
 - [781. Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)
+
+### 🪟 Sliding Window
+- [Find length of the longest subarray containing atmost two distinct integers](https://www.geeksforgeeks.org/problems/fruit-into-baskets-1663137462/1)
+- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [930. Binary subarray with sum](https://leetcode.com/problems/binary-subarrays-with-sum/)
+- [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+- [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)
+- [1358. Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters)
+- [1423. Maximum Points You Can Obtain From Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)
+- [2399. Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/)
 
 ---
 
