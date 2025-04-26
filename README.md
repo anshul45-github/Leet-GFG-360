@@ -53,6 +53,13 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [1358. Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters)
 - [1423. Maximum Points You Can Obtain From Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)
 - [2399. Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/)
+- [2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)
+
+### 🔁 Recursion
+- [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+
+### 📚 Trie
+- [208. Implement Trie | INSERT | SEARCH | STARTSWITH](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 ---
 
