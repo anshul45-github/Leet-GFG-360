@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/power-of-two/
+// 231. Power of Two
+// Easy
+
 #include<bits/stdc++.h>
 using namespace std;
 

@@ -57,9 +57,13 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 
 ### 🔁 Recursion
 - [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+- [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)
 
 ### 📚 Trie
 - [208. Implement Trie | INSERT | SEARCH | STARTSWITH](https://leetcode.com/problems/implement-trie-prefix-tree/)
+
+### ⚡ Bit Manipulation
+- [231. Check if a number is power of 2 or not](https://leetcode.com/problems/power-of-two/)
 
 ---
 
