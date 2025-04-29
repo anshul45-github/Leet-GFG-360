@@ -30,6 +30,7 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [38. Count And Say](https://leetcode.com/problems/count-and-say/)
 - [151. Reverse Every Word in A String](https://leetcode.com/problems/reverse-words-in-a-string/)
 - [3517. Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/)
+- [3529. Count Cells in Overlapping Horizontal and Vertical Substrings](https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/)
 
 ### ➗ Math
 - [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/)
@@ -61,6 +62,8 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 
 ### 📚 Trie
 - [208. Implement Trie | INSERT | SEARCH | STARTSWITH](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [421. Maximum XOR of two numbers in an array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+- [1707. Maximum XOR With an Element From Array](https://leetcode.com/problems/maximum-xor-with-an-element-from-array/)
 
 ### ⚡ Bit Manipulation
 - [231. Check if a number is power of 2 or not](https://leetcode.com/problems/power-of-two/)
