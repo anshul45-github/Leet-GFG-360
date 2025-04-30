@@ -14,6 +14,7 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [283. Move Zeroes to End](https://leetcode.com/problems/move-zeroes/)
 - [268. Find Missing Number in an Array](https://leetcode.com/problems/missing-number/)
 - [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
+- [1295. Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
 - [1399. Count Largest Group](https://leetcode.com/problems/count-largest-group/)
 - [2145. Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/)
 
@@ -27,8 +28,12 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [2563. Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)
 
 ### 🔠 Strings
+- [28. Z-function](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 - [38. Count And Say](https://leetcode.com/problems/count-and-say/)
 - [151. Reverse Every Word in A String](https://leetcode.com/problems/reverse-words-in-a-string/)
+- [686. Rabin Karp](https://leetcode.com/problems/repeated-string-match/)
+- [921. Minimum number of bracket reversals needed to make an expression balanced](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
+- [1392. Longest happy prefix](https://leetcode.com/problems/longest-happy-prefix/)
 - [3517. Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/)
 - [3529. Count Cells in Overlapping Horizontal and Vertical Substrings](https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/)
 
@@ -53,8 +58,10 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)
 - [1358. Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters)
 - [1423. Maximum Points You Can Obtain From Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)
+- [2302. Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/)
 - [2399. Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/)
 - [2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)
+- [2962. Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)
 
 ### 🔁 Recursion
 - [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
@@ -66,7 +73,11 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [1707. Maximum XOR With an Element From Array](https://leetcode.com/problems/maximum-xor-with-an-element-from-array/)
 
 ### ⚡ Bit Manipulation
+- [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
 - [231. Check if a number is power of 2 or not](https://leetcode.com/problems/power-of-two/)
+
+### 📌 Dynamic Programming
+- [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](https://leetcode.com/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/)
 
 ---
 

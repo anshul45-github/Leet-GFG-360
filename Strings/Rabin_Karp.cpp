@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/repeated-string-match/
+// 686. Repeated String Match
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 

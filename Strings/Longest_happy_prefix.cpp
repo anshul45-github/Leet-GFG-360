@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+// 1392. Longest Happy Prefix
+// Hard
+
 #include<bits/stdc++.h>
 using namespace std;
 

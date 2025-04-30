@@ -1,3 +1,10 @@
+// https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+// 28. Find the Index of the First Occurence in a String
+// Easy
+
+#include<string>
+using namespace std;
+
 #define N 1000000007
 
 class Solution {
