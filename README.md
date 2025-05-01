@@ -48,12 +48,14 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 
 ### 🤑 Greedy
 - [781. Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)
+- [3510. Minimum Pair Removal to Sort Array II](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/)
 
 ### 🪟 Sliding Window
 - [Find length of the longest subarray containing atmost two distinct integers](https://www.geeksforgeeks.org/problems/fruit-into-baskets-1663137462/1)
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [930. Binary subarray with sum](https://leetcode.com/problems/binary-subarrays-with-sum/)
+- [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)
 - [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 - [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)
 - [1358. Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters)
@@ -77,7 +79,11 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [231. Check if a number is power of 2 or not](https://leetcode.com/problems/power-of-two/)
 
 ### 📌 Dynamic Programming
-- [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](https://leetcode.com/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/)
+- [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](https://leetcode.com/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/) 
+
+### 🧱 Stack and Queues
+- [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+- [2071. Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)
 
 ---
 

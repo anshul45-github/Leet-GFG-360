@@ -1,24 +1,31 @@
-// Without any space except one queue (used to store stack elements)
-#include<bits/stdc++.h>
+// https://leetcode.com/problems/implement-stack-using-queues/
+// 225. Implement Stack using Queues
+// Easy
+
+#include<queue>
 using namespace std;
 
 class MyStack {
     queue<int> q;
+    int size;
 public:
-    MyStack() {}
+    MyStack() {
+        size = 0;
+    }
     
     void push(int x) {
         q.push(x);
-        for(int i = 0; i < q.size() - 1; i++) {
+        size++;
+        for(int i = 0; i < size - 1; i++) {
             q.push(q.front());
             q.pop();
         }
-        return;
     }
     
     int pop() {
         int x = q.front();
         q.pop();
+        size--;
         return x;
     }
     
