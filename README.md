@@ -32,6 +32,7 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [38. Count And Say](https://leetcode.com/problems/count-and-say/)
 - [151. Reverse Every Word in A String](https://leetcode.com/problems/reverse-words-in-a-string/)
 - [686. Rabin Karp](https://leetcode.com/problems/repeated-string-match/)
+- [838. Push Dominoes](https://leetcode.com/problems/push-dominoes/description/)
 - [921. Minimum number of bracket reversals needed to make an expression balanced](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
 - [1392. Longest happy prefix](https://leetcode.com/problems/longest-happy-prefix/)
 - [3517. Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/)
@@ -73,6 +74,7 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [208. Implement Trie | INSERT | SEARCH | STARTSWITH](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [421. Maximum XOR of two numbers in an array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
 - [1707. Maximum XOR With an Element From Array](https://leetcode.com/problems/maximum-xor-with-an-element-from-array/)
+- [3485. Longest Common Prefix of K Strings After Removal](https://leetcode.com/problems/longest-common-prefix-of-k-strings-after-removal/)
 
 ### ⚡ Bit Manipulation
 - [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
