@@ -49,6 +49,7 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 
 ### 🤑 Greedy
 - [781. Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)
+- [1007. Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)
 - [3510. Minimum Pair Removal to Sort Array II](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/)
 
 ### 🪟 Sliding Window
