@@ -14,6 +14,7 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [283. Move Zeroes to End](https://leetcode.com/problems/move-zeroes/)
 - [268. Find Missing Number in an Array](https://leetcode.com/problems/missing-number/)
 - [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
+- [1128. Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)
 - [1295. Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
 - [1399. Count Largest Group](https://leetcode.com/problems/count-largest-group/)
 - [2145. Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/)

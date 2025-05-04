@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/reverse-integer/
+// 7. Reverse Integer
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 
