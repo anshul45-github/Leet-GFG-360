@@ -83,11 +83,19 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [231. Check if a number is power of 2 or not](https://leetcode.com/problems/power-of-two/)
 
 ### 📌 Dynamic Programming
+- [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)
 - [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](https://leetcode.com/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/) 
 
 ### 🧱 Stack and Queues
 - [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
 - [2071. Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)
+
+### 🔥 Heaps
+- [1792. Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)
+
+### 🍼 Basic
+- [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 
 ---
 
