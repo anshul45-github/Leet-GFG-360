@@ -17,6 +17,7 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [1128. Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)
 - [1295. Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
 - [1399. Count Largest Group](https://leetcode.com/problems/count-largest-group/)
+- [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
 - [2145. Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/)
 
 ### 🔍 Binary Search – Because Brute Force is So Last Season
