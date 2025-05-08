@@ -100,6 +100,7 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 
 ### 🌐 Graphs
 - [3341. Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/)
+- [3342. Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/)
 
 ---
 
