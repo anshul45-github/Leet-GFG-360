@@ -98,6 +98,9 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 
+### 🌐 Graphs
+- [3341. Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/)
+
 ---
 
 ## 💡 Contributions?
