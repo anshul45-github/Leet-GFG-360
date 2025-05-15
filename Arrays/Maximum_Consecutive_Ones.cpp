@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/max-consecutive-ones/
+// 485. Max Consecutive Ones
+// Easy
+
 #include<bits/stdc++.h>
 using namespace std;
 

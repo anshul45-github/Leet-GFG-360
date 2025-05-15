@@ -9,16 +9,22 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 ## 📚 Problem List
 
 ### 🔢 Arrays  
+- [26. Remove duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- [136. Find the number that appears once and others twice](https://leetcode.com/problems/max-consecutive-ones/)
 - [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+- [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 - [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)
 - [283. Move Zeroes to End](https://leetcode.com/problems/move-zeroes/)
 - [268. Find Missing Number in an Array](https://leetcode.com/problems/missing-number/)
+- [485. Maximum Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)
 - [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
 - [1128. Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)
 - [1295. Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
 - [1399. Count Largest Group](https://leetcode.com/problems/count-largest-group/)
+- [1752. Check if the array is sorted](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)
 - [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
 - [2145. Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/)
+- [2900. Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/)
 
 ### 🔍 Binary Search – Because Brute Force is So Last Season
 - [4. Median of 2 sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)

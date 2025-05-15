@@ -1,4 +1,6 @@
-// TC : O(N), SC : O(1)
+// https://leetcode.com/problems/rotate-array/
+// 189. Rotate Array
+// Medium
 
 #include<bits/stdc++.h>
 using namespace std;

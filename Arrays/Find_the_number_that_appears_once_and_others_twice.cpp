@@ -1,5 +1,8 @@
-// TC : O(N), SC : O(1)
-#include<bits/stdc++.h>
+// https://leetcode.com/problems/max-consecutive-ones/
+// 136. Single Number
+// Easy
+
+#include<vector>
 using namespace std;
 
 class Solution {

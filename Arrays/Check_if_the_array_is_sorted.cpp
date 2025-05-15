@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
+// 1752. Check if Array Is Sorted and Rotated
+// Easy
+
 #include<bits/stdc++.h>
 using namespace std;
 
