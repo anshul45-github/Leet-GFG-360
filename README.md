@@ -10,6 +10,7 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 
 ### 🔢 Arrays  
 - [26. Remove duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 - [136. Find the number that appears once and others twice](https://leetcode.com/problems/max-consecutive-ones/)
 - [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
