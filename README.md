@@ -48,6 +48,7 @@ Welcome to **Leet-GFG-360**, where I dump my sanity… I mean, my solutions to D
 - [3529. Count Cells in Overlapping Horizontal and Vertical Substrings](https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/)
 
 ### ➗ Math
+- [3024. Type of Triangle](https://leetcode.com/problems/type-of-triangle/)
 - [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/)
 
 ### 🔗 Linked List
