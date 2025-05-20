@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/subarray-sum-equals-k/
+// 560. Subarray Sum Equals K
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 

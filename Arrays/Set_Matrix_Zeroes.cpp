@@ -1,4 +1,7 @@
-// In-place, SC : O(1)
+// https://leetcode.com/problems/set-matrix-zeroes/
+// 73. Set Matrix Zeroes
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 
