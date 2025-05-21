@@ -6,51 +6,49 @@
 using namespace std;
 
 class Solution {
+    void setRowZero(vector<vector<int>>& matrix, int i) {
+        for(int j = 0; j < matrix[0].size(); j++)
+            matrix[i][j] = 0;
+    }
+    void setColZero(vector<vector<int>>& matrix, int j) {
+        for(int i = 0; i < matrix.size(); i++) 
+            matrix[i][j] = 0;
+    }
 public:
     void setZeroes(vector<vector<int>>& matrix) {
-        int n = matrix.size();
-        int m = matrix[0].size();
-        bool flag1 = false;
-        bool flag2 = false;
-        for(int i = 0; i < n; i++) {
+        bool firstRow = false;
+        bool firstCol = false;
+        for(int i = 0; i < matrix.size(); i++) {
             if(matrix[i][0] == 0) {
-                flag1 = true;
+                firstCol = true;
                 break;
             }
         }
-        for(int i = 0; i < m; i++) {
+        for(int i = 0; i < matrix[0].size(); i++) {
             if(matrix[0][i] == 0) {
-                flag2 = true;
+                firstRow = true;
                 break;
             }
         }
-        for(int i = 1; i < n; i++) {
-            for(int j = 1; j < m; j++) {
+        for(int i = 1; i < matrix.size(); i++) {
+            for(int j = 1; j < matrix[0].size(); j++) {
                 if(matrix[i][j] == 0) {
                     matrix[0][j] = 0;
                     matrix[i][0] = 0;
                 }
             }
         }
-        for(int i = 1; i < n; i++) {
-            if(matrix[i][0] == 0) {
-                for(int j = 1; j < m; j++)
-                    matrix[i][j] = 0;
-            }
+        for(int i = 1; i < matrix.size(); i++) {
+            if(matrix[i][0] == 0) 
+                setRowZero(matrix, i);
         }
-        for(int i = 1; i < m; i++) {
-            if(matrix[0][i] == 0) {
-                for(int j = 1; j < n; j++)
-                    matrix[j][i] = 0;
-            }
+        for(int j = 1; j < matrix[0].size(); j++) {
+            if(matrix[0][j] == 0)
+                setColZero(matrix, j);
         }
-        if(flag1) {
-            for(int i = 0; i < n; i++)
-                matrix[i][0] = 0;
-        }
-        if(flag2) {
-            for(int i = 0; i < m; i++)
-                matrix[0][i] = 0;
-        }
+        if(firstRow)
+            setRowZero(matrix, 0);
+        if(firstCol)
+            setColZero(matrix, 0);
     }
 };
