@@ -6,18 +6,18 @@
 using namespace std;
 
 class Solution {
-    void merge(vector<int>& nums, int l, int mid, int r, int& cnt) {
+    int pairs;
+    void merge(vector<int>& nums, int l, int mid, int r) {
         int i = l;
         int j = mid + 1;
         int k = 0;
-        int tempCnt = 0;
         while(i <= mid && j <= r) {
+            int tempcnt = 0;
             while(j <= r && 1LL * nums[i] > 2LL * nums[j]) {
+                tempcnt++;
                 j++;
-                tempCnt++;
             }
-            cnt += (mid - i + 1) * tempCnt;
-            tempCnt = 0;
+            pairs += (mid - i + 1) * tempcnt;
             i++;
         }
         i = l;
@@ -28,7 +28,7 @@ class Solution {
                 temp[k] = nums[i];
                 i++;
             }
-            else {
+            else if(nums[i] > nums[j]) {
                 temp[k] = nums[j];
                 j++;
             }
@@ -44,21 +44,21 @@ class Solution {
             j++;
             k++;
         }
-        for(i = l; i <= r; i++)
-            nums[i] = temp[i - l];
+        for(k = l; k <= r; k++)
+            nums[k] = temp[k - l];
     }
-    void mergeSort(vector<int>& nums, int l, int r, int& cnt) {
+    void mergeSort(vector<int>& nums, int l, int r) {
         if(l >= r)
             return;
         int mid = l + ((r - l) >> 1);
-        mergeSort(nums, l, mid, cnt);
-        mergeSort(nums, mid + 1, r, cnt);
-        merge(nums, l, mid, r, cnt);
+        mergeSort(nums, l, mid);
+        mergeSort(nums, mid + 1, r);
+        merge(nums, l, mid, r);
     }
 public:
     int reversePairs(vector<int>& nums) {
-        int cnt = 0;
-        mergeSort(nums, 0, nums.size() - 1, cnt);
-        return cnt;
+        pairs = 0;
+        mergeSort(nums, 0, nums.size() - 1);
+        return pairs;
     }
 };
