@@ -6,25 +6,25 @@
 using namespace std;
 
 class Solution {
-    int sumLessThanEqual(vector<int>& nums, int goal) {
-        if(goal == -1)
+    int solve(vector<int>& nums, int k) {
+        if(k < 0)
             return 0;
-        int start = 0;
-        int ans = 0;
         int sum = 0;
-        for(int end = 0; end < nums.size(); end++) {
-            sum += nums[end];
-            while(sum > goal && start < nums.size()) {
-                sum -= nums[start];
-                start++;
+        int l = 0;
+        int ans = 0;
+        for(int r = 0; r < nums.size(); r++) {
+            sum += nums[r];
+            // cout << sum << " ";
+            while(sum > k) {
+                sum -= nums[l];
+                l++;
             }
-            if(end - start + 1 > 0)
-                ans += end - start + 1;
+            ans += r - l + 1;
         }
         return ans;
     }
 public:
     int numSubarraysWithSum(vector<int>& nums, int goal) {
-        return sumLessThanEqual(nums, goal) - sumLessThanEqual(nums, goal - 1);
+        return solve(nums, goal) - solve(nums, goal - 1);
     }
 };
