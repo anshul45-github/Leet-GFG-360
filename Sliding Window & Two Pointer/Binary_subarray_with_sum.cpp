@@ -14,7 +14,6 @@ class Solution {
         int ans = 0;
         for(int r = 0; r < nums.size(); r++) {
             sum += nums[r];
-            // cout << sum << " ";
             while(sum > k) {
                 sum -= nums[l];
                 l++;
