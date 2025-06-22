@@ -1,4 +1,6 @@
-// TC : O(N), SC : O(N)
+// https://www.geeksforgeeks.org/problems/introduction-to-dp/1
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 

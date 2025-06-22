@@ -1,4 +1,6 @@
-// TC : O(N * K), SC : O(N)
+// https://www.geeksforgeeks.org/problems/minimal-cost/1
+// Medium
+
 #include<bits/stdc++.h>
 using namespace std;
 

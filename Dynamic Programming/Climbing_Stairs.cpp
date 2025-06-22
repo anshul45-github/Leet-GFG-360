@@ -1,3 +1,6 @@
+// https://leetcode.com/problems/climbing-stairs/description/
+// Easy
+
 #include<bits/stdc++.h>
 using namespace std;
 
