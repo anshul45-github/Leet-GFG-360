@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/count-the-number-of-complete-components/
-// Medium
 
 #include <vector>
 #include <unordered_set>

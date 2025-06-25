@@ -1,17 +1,6 @@
 // https://leetcode.com/problems/search-in-rotated-sorted-array/
-// Medium
 
-// This code searches for a target value in a rotated sorted array using binary search.
-
-// The function `search` takes a vector of integers `nums` and an integer `target` as input and returns the index of the target if found, otherwise -1.
-
-// The search space is from 0 to `nums.size() - 1`, and the mid-point is calculated using bitwise operations for efficiency.
-
-// The function checks if the left half of the array is sorted and if the target lies within that range.
-
-// If it does, it narrows the search space to the left half; otherwise, it searches in the right half.
-
-#include<vector>
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {
