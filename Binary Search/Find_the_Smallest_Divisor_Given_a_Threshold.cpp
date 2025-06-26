@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
+
 #include<bits/stdc++.h>
 using namespace std;
 
