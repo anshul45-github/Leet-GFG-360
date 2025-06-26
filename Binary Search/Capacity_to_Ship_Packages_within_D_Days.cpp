@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/
-// // 1011. Capacity To Ship Packages Within D Days
 
 #include<bits/stdc++.h>
 using namespace std;

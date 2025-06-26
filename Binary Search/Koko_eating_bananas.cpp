@@ -1,6 +1,4 @@
-// https://leetcode.com/problems/koko-eating-bananas/description/
-// 875. Koko Eating Bananas
-// Medium
+// https://leetcode.com/problems/koko-eating-bananas/
 
 #include<bits/stdc++.h>
 using namespace std;
