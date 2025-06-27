@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/house-robber/
-// Medium
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -10,14 +9,14 @@ class Solution {
             return 0;
         if(dp[i] != -1)
             return dp[i];
-        int include = solve(nums, i + 2, dp) + nums[i];
-        int exclude = solve(nums, i + 1, dp);
-        return dp[i] = max(include, exclude);
+        int robIt = solve(nums, i + 2, dp) + nums[i];
+        int leaveIt = solve(nums, i + 1, dp);
+        return dp[i] = max(robIt, leaveIt);
     }
 public:
     int rob(vector<int>& nums) {
-        vector<int> dp(nums.size(), -1);
-        int ans = solve(nums, 0, dp);
-        return ans;
+        vector<int> dp(nums.size() + 1, -1);
+        return solve(nums, 0, dp);
+        // return max(solve(nums, 0), solve(nums, 1));
     }
 };
