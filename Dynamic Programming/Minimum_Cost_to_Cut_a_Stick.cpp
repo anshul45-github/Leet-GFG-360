@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
+
 #include<bits/stdc++.h>
 using namespace std;
 
