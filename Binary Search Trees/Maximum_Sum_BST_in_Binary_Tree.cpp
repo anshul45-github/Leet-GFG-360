@@ -1,24 +1,6 @@
 // https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/
-// Hard
 
-// Given a binary tree root, return the maximum sum of all keys of any sub-tree which is also a Binary Search Tree (BST).
-
-// A sub-tree of a binary tree is a tree consisting of a node in the tree and all of its descendants.
-
-// A Binary Search Tree is a tree which satisfies the property: left subtree < root < right subtree for all nodes.
-
-// A sum of a tree is the sum of its keys.
-
-// A key of a node is the value of that node.
-
-// Example 1:
-// Input: root = [1,4,3,2,4,null,5]
-// Output: 20
-// Explanation: Maximum sum in a valid Binary Search Tree is obtained in the sub-tree with root node 3.
-
-#include<climits>
-#include<unordered_map>
-#include<algorithm>
+#include<bits/stdc++.h>
 using namespace std;
 
 struct TreeNode {
@@ -67,5 +49,27 @@ public:
         int maxSum = 0;
         postorder(root, maxSum);
         return maxSum;
+    }
+};
+
+// Alternative solution using vector to store sum, max, and min values
+class Solution {
+    int ans;
+    vector<int> solve(TreeNode* root) {
+        if(root == nullptr)
+            return {0, INT_MIN, INT_MAX}; 
+        vector<int> left = solve(root -> left);
+        vector<int> right = solve(root -> right);
+        if(root -> val > left[1] && root -> val < right[2]) {
+            ans = max(ans, left[0] + right[0] + root -> val);
+            return {left[0] + right[0] + root -> val, max(root -> val, right[1]), min(root -> val, left[2])};
+        }
+        return {max(left[0], right[0]), INT_MAX, INT_MIN};
+    }
+public:
+    int maxSumBST(TreeNode* root) {
+        ans = 0;
+        solve(root)[0];
+        return ans;
     }
 };

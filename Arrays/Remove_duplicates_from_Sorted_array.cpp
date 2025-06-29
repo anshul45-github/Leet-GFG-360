@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-// 26. Remove Duplicates from Sorted Array
-// Easy
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -8,15 +6,14 @@ using namespace std;
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int curr = nums[0];
-        int idx = 1;
-        for(int i = 1; i < nums.size(); i++) {
-            if(nums[i] != curr) {
-                nums[idx] = nums[i];
-                idx++;
-                curr = nums[i];
-            }
+        int i = 0, j = 0;
+        while(j < nums.size()) {
+            while(j + 1 < nums.size() && nums[j] == nums[j + 1])
+                j++;
+            nums[i] = nums[j];
+            i++;
+            j++;
         }
-        return idx;
+        return i;
     }
 };
