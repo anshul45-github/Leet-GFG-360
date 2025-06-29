@@ -1,19 +1,17 @@
+// https://www.geeksforgeeks.org/problems/largest-bst/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
-/* 
-  Tree node structure  used in the program
-  struct Node {
-      int data;
-      Node *left;
-      Node *right;
-
-      Node(int val) {
-          data = val;
-          left = right = NULL;
-      }
-  };
-*/
+struct Node {
+    int data;
+    Node *left;
+    Node *right;
+    Node(int val) {
+        data = val;
+        left = right = NULL;
+    }
+};
 
 class Solution{
     vector<int> helper(Node* root) {
