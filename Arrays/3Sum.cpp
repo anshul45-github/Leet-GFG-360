@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/3sum/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -18,16 +20,13 @@ public:
                     ans.push_back(a);
                     j++;
                     k--;
-                    while (nums[j] == nums[j-1] && j < k) {
+                    while(nums[j] == nums[j - 1] && j < k) 
                         j++;
-                    }
                 }
-                else if(nums[i] + nums[j] + nums[k] < 0) {
+                else if(nums[i] + nums[j] + nums[k] < 0) 
                     j++;
-                }
-                else {
+                else 
                     k--;
-                }
             }
         }
         return ans;

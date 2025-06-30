@@ -1,37 +1,34 @@
-// In-place, SC : O(1)
+// https://leetcode.com/problems/next-permutation/
+
 #include<bits/stdc++.h>
 using namespace std;
 
 class Solution {
-public:
-    void swap(vector<int>& nums, int i, int j) {
-        int k = nums[i];
-        nums[i] = nums[j];
-        nums[j] = k;
-    }
-    void nextPermutation(vector<int>& nums) {
-        int n = nums.size();
-        int m = nums[n - 1];
-        int j = n - 2;
-        while(j >= 0) {
-            if(nums[j] < m) {
-                break;
+    int findCeil(vector<int>& nums, int target, int low) {
+        int high = nums.size() - 1;
+        int ans = low;
+        while(low <= high) {
+            int mid = low + ((high - low) >> 1);
+            if(nums[mid] > target) {
+                ans = mid;
+                low = mid + 1;
             }
-            m = nums[j];
-            j--;
+            else
+                high = mid - 1;
         }
-        if(j == -1) {
-            sort(nums.begin(), nums.end());
+        return ans;
+    }
+public:
+    void nextPermutation(vector<int>& nums) {
+        int i = nums.size() - 2;
+        while(i >= 0 && nums[i] >= nums[i + 1]) 
+            i--;
+        if(i == -1) {
+            reverse(nums.begin(), nums.end());
             return;
         }
-        int mi = j + 1;
-        cout << mi << endl;
-        for(int i = j + 2; i < n; i++) {
-            if(nums[i] < nums[mi] && nums[i] > nums[j])
-                mi = i;
-        }
-        cout << mi << endl;
-        swap(nums, j, mi);
-        sort(nums.begin() + j + 1, nums.end());
+        int u = findCeil(nums, nums[i], i + 1);
+        swap(nums[i], nums[u]);
+        reverse(nums.begin() + i + 1, nums.end());
     }
 };

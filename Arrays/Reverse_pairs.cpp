@@ -1,64 +1,43 @@
-// https://leetcode.com/problems/reverse-pairs/description/
-// 493. Reverse Pairs
-// Hard
+// https://leetcode.com/problems/reverse-pairs/
 
 #include<bits/stdc++.h>
 using namespace std;
 
 class Solution {
-    int pairs;
-    void merge(vector<int>& nums, int l, int mid, int r) {
-        int i = l;
+    int ans;
+    void merge(vector<int>& arr, int l, int mid, int r) {
         int j = mid + 1;
-        int k = 0;
-        while(i <= mid && j <= r) {
-            int tempcnt = 0;
-            while(j <= r && 1LL * nums[i] > 2LL * nums[j]) {
-                tempcnt++;
+        for (int i = l; i <= mid; ++i) {
+            while (j <= r && 1LL * arr[i] > 2LL * arr[j])
                 j++;
-            }
-            pairs += (mid - i + 1) * tempcnt;
-            i++;
+            ans += j - (mid + 1);
         }
-        i = l;
-        j = mid + 1;
         vector<int> temp(r - l + 1);
+        int i = l, k = 0;
+        j = mid + 1;
         while(i <= mid && j <= r) {
-            if(nums[i] <= nums[j]) {
-                temp[k] = nums[i];
-                i++;
-            }
-            else if(nums[i] > nums[j]) {
-                temp[k] = nums[j];
-                j++;
-            }
-            k++;
+            if(arr[i] <= arr[j])
+                temp[k++] = arr[i++];
+            else
+                temp[k++] = arr[j++];
         }
-        while(i <= mid) {
-            temp[k] = nums[i];
-            i++;
-            k++;
-        }
-        while(j <= r) {
-            temp[k] = nums[j];
-            j++;
-            k++;
-        }
-        for(k = l; k <= r; k++)
-            nums[k] = temp[k - l];
+        while(i <= mid) temp[k++] = arr[i++];
+        while(j <= r) temp[k++] = arr[j++];
+        for(i = l; i <= r; ++i)
+            arr[i] = temp[i - l];
     }
-    void mergeSort(vector<int>& nums, int l, int r) {
+    void mergeSort(vector<int>& arr, int l, int r) {
         if(l >= r)
             return;
         int mid = l + ((r - l) >> 1);
-        mergeSort(nums, l, mid);
-        mergeSort(nums, mid + 1, r);
-        merge(nums, l, mid, r);
+        mergeSort(arr, l, mid);
+        mergeSort(arr, mid + 1, r);
+        merge(arr, l, mid, r);
     }
 public:
-    int reversePairs(vector<int>& nums) {
-        pairs = 0;
-        mergeSort(nums, 0, nums.size() - 1);
-        return pairs;
+    int reversePairs(vector<int>& arr) {
+        ans = 0;
+        mergeSort(arr, 0, arr.size() - 1);
+        return ans;
     }
 };

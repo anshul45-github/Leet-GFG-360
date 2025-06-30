@@ -1,6 +1,4 @@
-// https://leetcode.com/problems/maximum-product-subarray/description/
-// 152. Maximum Product Subarray
-// Medium
+// https://leetcode.com/problems/maximum-product-subarray/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -8,19 +6,21 @@ using namespace std;
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        int maxi = INT_MIN;
-        int leftProd = 1;
-        int rightProd = 1;
-        for(int i = 0; i < nums.size(); i++) {
-            leftProd *= nums[i];
-            rightProd *= nums[nums.size() - i - 1];
-            maxi = max(maxi, leftProd);
-            maxi = max(maxi, rightProd);
-            if(leftProd == 0)
-                leftProd = 1;
-            if(rightProd == 0)
-                rightProd = 1;
+        int currProd = 1;
+        int maxProd = INT_MIN;
+        for(int x : nums) {
+            currProd *= x;
+            maxProd = max(maxProd, currProd);
+            if(currProd == 0)
+                currProd = 1;
         }
-        return maxi;
+        currProd = 1;
+        for(int i = nums.size() - 1; i >= 0; i--) {
+            currProd *= nums[i];
+            maxProd = max(maxProd, currProd);
+            if(currProd == 0)
+                currProd = 1;
+        }
+        return maxProd;
     }
 };
