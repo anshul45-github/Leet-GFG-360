@@ -1,6 +1,4 @@
-// https://leetcode.com/problems/reverse-words-in-a-string/description/
-// 151. Reverse Words in a String
-// Medium
+// https://leetcode.com/problems/reverse-words-in-a-string/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -8,23 +6,21 @@ using namespace std;
 class Solution {
 public:
     string reverseWords(string s) {
-        reverse(s.begin(), s.end());
-        int l = 0, r = 0, n = s.size(), i = 0;
-        while(i < n) {
-            while(i < n && s[i] != ' ')
-                s[r++] = s[i++];
-            if(l < r) {
-                reverse(s.begin() + l, s.begin() + r);
-                if(r == n)
-                    break;
-                s[r++] = ' ';
-                l = r;
+        string r = "";
+        for(int i = 0; i < s.size();) {
+            if(s[i] != ' ') {
+                int start = i;
+                while(i < s.size() && s[i] != ' ')
+                    i++;
+                string temp = s.substr(start, i - start);
+                reverse(temp.begin(), temp.end());
+                if(r != "")
+                    r += ' ';
+                r += temp;
             }
             i++;
         }
-        if(r > 0 && s[r - 1] == ' ')
-            r--;
-        s.resize(r);
-        return s;
+        reverse(r.begin(), r.end());
+        return r;
     }
 };
