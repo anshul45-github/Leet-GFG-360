@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/accounts-merge/
-// Medium
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -12,42 +11,48 @@ class Solution {
     }
 public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-        unordered_map<string, int> mp;
         vector<int> parent(accounts.size());
         for(int i = 0; i < parent.size(); i++)
             parent[i] = i;
+        unordered_map<string, int> mp;
+        int n = accounts.size();
         for(int i = 0; i < accounts.size(); i++) {
             for(int j = 1; j < accounts[i].size(); j++) {
-                if(!mp.count(accounts[i][j])) 
+                if(mp.count(accounts[i][j])) {
+                    int u = i;
+                    int v = mp[accounts[i][j]];
+                    int up = find(parent, u);
+                    int vp = find(parent, v);
+                    if(up != vp) {
+                        parent[up] = vp;
+                        n--;
+                    }
+                }
+                else
                     mp[accounts[i][j]] = i;
-                int up = find(parent, i);
-                int vp = find(parent, mp[accounts[i][j]]);
-                if(up != vp)
-                    parent[up] = vp;
             }
         }
-        vector<set<string>> ans;
-        unordered_map<int, int> mapping;
+        vector<set<string>> v;
+        unordered_map<int, int> idxmp;
         for(int i = 0; i < accounts.size(); i++) {
-            int p = find(parent, mp[accounts[i][1]]);
-            if(!mapping.count(p)) {
-                mapping[p] = ans.size();
-                ans.push_back(set<string>());
+            int p = find(parent, i);
+            if(!idxmp.count(p)) {
+                idxmp[p] = v.size();
+                v.resize(idxmp[p] + 1);
             }
-            for(int j = 1; j < accounts[i].size(); j++) {
-                ans[mapping[p]].insert(accounts[i][j]);
-            }
+            for(int j = 1; j < accounts[i].size(); j++)
+                v[idxmp[p]].insert(accounts[i][j]);
         }
-        vector<vector<string>> temp(ans.size());
+        vector<vector<string>> ans(n);
         for(int i = 0; i < accounts.size(); i++) {
-            int p = mapping[find(parent, i)];
-            if(!temp[p].size())
-                temp[p].push_back(accounts[i][0]);
+            int u = find(parent, i);
+            int p = idxmp[u];
+            if(p == -1)
+                continue;
+            idxmp[u] = -1;
+            ans[p].push_back(accounts[i][0]);
+            ans[p].insert(ans[p].end(), v[p].begin(), v[p].end());
         }
-        for(int i = 0; i < ans.size(); i++) {
-            for(string x : ans[i])
-                temp[i].push_back(x);
-        }
-        return temp;
+        return ans;
     }
 };

@@ -1,11 +1,4 @@
 // https://leetcode.com/problems/making-a-large-island/
-// Hard
-
-// This code is a solution to the problem of finding the largest island in a grid after potentially converting one water cell (0) into land (1).
-
-// The solution uses depth-first search (DFS) to explore the grid and calculate the area of islands.
-
-// It keeps track of the parent of each cell to efficiently calculate the area when converting a water cell into land. The final answer is the maximum area of an island that can be formed by converting one water cell into land, or the largest existing island if no conversion is made.
 
 #include<bits/stdc++.h>
 using namespace std;
