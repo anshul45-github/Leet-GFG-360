@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/count-complete-subarrays-in-an-array/
-// 2799. Count Complete Subarrays in an Array
-// Medium
 
 #include<vector>
 #include<unordered_map>

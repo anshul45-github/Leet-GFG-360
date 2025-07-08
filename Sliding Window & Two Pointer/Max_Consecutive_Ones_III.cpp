@@ -1,6 +1,4 @@
-// https://leetcode.com/problems/max-consecutive-ones-iii/description/
-// 1004. Max Consecutive Ones III
-// Medium
+// https://leetcode.com/problems/max-consecutive-ones-iii/
 
 #include<bits/stdc++.h>
 using namespace std;

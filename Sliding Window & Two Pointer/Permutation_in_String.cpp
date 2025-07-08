@@ -1,13 +1,7 @@
+// https://leetcode.com/problems/permutation-in-string/description/
+
 #include<bits/stdc++.h>
 using namespace std;
-
-// CHECK IF S1 IS A SUBSTRING OF S2
-// USE TWO MAPS TO STORE THE FREQUENCY OF EACH CHARACTER
-// USE TWO POINTERS TO SLIDE THE WINDOW
-// IF THE WINDOW SIZE IS EQUAL TO THE SIZE OF S1, RETURN TRUE
-
-// TIME COMPLEXITY: O(N)
-// SPACE COMPLEXITY: O(1)
 
 class Solution {
     public:

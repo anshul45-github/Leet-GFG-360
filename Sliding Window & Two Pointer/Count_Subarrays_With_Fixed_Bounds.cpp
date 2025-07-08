@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/count-subarrays-with-fixed-bounds/
-// 2444. Count Subarrays With Fixed Bounds
-// Hard
 
 #include<bits/stdc++.h>
 using namespace std;

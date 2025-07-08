@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/count-subarrays-with-score-less-than-k/
-// 2302. Count Subarrays With Score Less Than K
-// Hard
 
 #include<vector>
 using namespace std;
