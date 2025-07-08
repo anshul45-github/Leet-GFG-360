@@ -1,5 +1,5 @@
-// Problem Name - Minimum Interval to Include Each Query
-// Sheet - Neetcode 150
+// https://leetcode.com/problems/minimum-interval-to-include-each-query/
+
 #include<bits/stdc++.h>
 using namespace std;
 

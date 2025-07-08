@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/find-the-maximum-sum-of-node-values/
-// 3068. Find the Maximum Sum of Node Values
-// Hard
 
 #include<vector>
 #include<queue>

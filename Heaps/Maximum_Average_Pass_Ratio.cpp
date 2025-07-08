@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/maximum-average-pass-ratio/
-// 1792. Maximum Average Pass Ratio
-// Medium
 
 #include<vector>
 #include<queue>

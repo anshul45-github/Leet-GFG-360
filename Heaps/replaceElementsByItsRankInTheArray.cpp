@@ -1,5 +1,3 @@
-// TC : O(nlogn), SC : O(n)
-
 class cmp {
 public:
     bool operator() (pair<int, int> p1, pair<int, int> p2) {

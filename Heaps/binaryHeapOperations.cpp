@@ -1,24 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-/*The structure of the class is
-struct MinHeap
-{
-    int *harr;
-    int capacity, heap_size;
-    MinHeap(int cap) {heap_size = 0; capacity = cap; harr = new int[cap];}
-    int extractMin();
-    void deleteKey(int i);
-    void insertKey(int k);
-    int parent(int i);
-    int left(int i);
-    int right(int i);
-};*/
-
-
-
-//Function to extract minimum value in heap and then to store 
-//next minimum value at first index.
 int MinHeap::extractMin() 
 {
     if(heap_size == 0)

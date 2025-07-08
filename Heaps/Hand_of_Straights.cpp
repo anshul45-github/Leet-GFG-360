@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/hand-of-straights/
+
 #include<bits/stdc++.h>
 using namespace std;
 

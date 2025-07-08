@@ -1,5 +1,4 @@
 // https://www.naukri.com/code360/problems/min-heap_4691801?leftPanelTabValue=PROBLEM
-// Moderate
 
 #include <bits/stdc++.h> 
 using namespace std;
