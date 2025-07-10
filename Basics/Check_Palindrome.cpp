@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/palindrome-number/
-// 9. Palindrome Number
-// Easy
 
 #include<bits/stdc++.h>
 using namespace std;

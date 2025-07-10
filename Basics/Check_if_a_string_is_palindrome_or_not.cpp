@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/valid-palindrome/
-// 125. Valid Palindrome
-// Easy
 
 #include<bits/stdc++.h>
 using namespace std;
