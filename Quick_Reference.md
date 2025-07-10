@@ -44,7 +44,27 @@ if(it != s.end()) {
 }
 ```
 
-* Both `upper_bound` and `lower_bound` work in `O(log n)` time.
+## 🔍 Map Lookups
+
+### Check if key > x exists in map
+
+```cpp
+auto it = mp.upper_bound(x);
+if(it != mp.end()) {
+    // Key > x exists: it->first, value: it->second
+}
+```
+
+### Check if key ≥ x exists in map
+
+```cpp
+auto it = mp.lower_bound(x);
+if(it != mp.end()) {
+    // Key >= x exists: it->first, value: it->second
+}
+```
+
+* Both `upper_bound` and `lower_bound` work in `O(log n)` time for `map` and `set`.
 
 ## ⚡ Bit Manipulation
 
@@ -76,6 +96,6 @@ cout.tie(NULL);
 3. Edge cases:
 
    * Empty input
-   * Single eleme
+   * Single element
    * Duplicates
    * Overflow cases
