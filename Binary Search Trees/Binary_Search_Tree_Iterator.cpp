@@ -12,6 +12,49 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
+// Approach 1 - Morris Traversal
+class BSTIterator {
+    TreeNode* root;
+public:
+    BSTIterator(TreeNode* root) {
+        this -> root = root;
+    }
+
+    TreeNode* findPre(TreeNode* root) {
+        TreeNode* temp = root -> left;
+        while(temp -> right && temp -> right != root)
+            temp = temp -> right;
+        return temp;
+    }
+    
+    int next() {
+        while(root) {
+            if(root -> left == nullptr) {
+                int x = root -> val;
+                root = root -> right;
+                return x;
+            }
+            TreeNode* pre = findPre(root);
+            if(pre -> right == nullptr) {
+                pre -> right = root;
+                root = root -> left;
+            }
+            else {
+                pre -> right = nullptr;
+                int x = root -> val;
+                root = root -> right;
+                return x;
+            }
+        }
+        return -1;
+    }
+    
+    bool hasNext() {
+        return root;
+    }
+};
+
+// Approach 2 - Using Stack
 class BSTIterator {
 public:
     stack<TreeNode*>st;

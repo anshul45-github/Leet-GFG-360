@@ -3,6 +3,77 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Approach 1 - Brute Force (Merging and Sorting)
+class Solution {
+public:
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        int n = nums1.size();
+        int m = nums2.size();
+
+        vector<int> merged;
+        for(int i = 0; i < n; i++) 
+            merged.push_back(nums1[i]);
+        for(int i = 0; i < m; i++) 
+            merged.push_back(nums2[i]);
+
+        sort(merged.begin(), merged.end());
+
+        int total = merged.size();
+
+        if(total % 2 == 1) 
+            return static_cast<double>(merged[total / 2]);
+        else {
+            int middle1 = merged[total / 2 - 1];
+            int middle2 = merged[total / 2];
+            return (static_cast<double>(middle1) + static_cast<double>(middle2)) / 2.0;
+        }
+    }
+};
+
+// Better Approach - Two Pointer Technique
+class Solution {
+public:
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        int n = nums1.size();
+        int m = nums2.size();
+        int i = 0, j = 0, first = 0, second = 0;
+
+        int cnt = 0;
+        while(i < n && j < m && cnt <= (n + m) >> 1) {
+            first = second;
+            if(nums1[i] < nums2[j]) {
+                second = nums1[i];
+                i++;
+            }
+            else {
+                second = nums2[j];
+                j++;
+            }
+            cnt++;
+        }
+        while(i < n && cnt <= (n + m) >> 1) {
+            first = second;
+            second = nums1[i];
+            i++;
+            cnt++;
+        }
+        while(j < m && cnt <= (n + m) >> 1) {
+            first = second;
+            second = nums2[j];
+            j++;
+            cnt++;
+        }
+
+        if((n + m) % 2 == 1) 
+            return static_cast<double>(second);
+        else {
+            double ans = static_cast<double>(first) + static_cast<double>(second);
+            return ans / 2.0;
+        }
+    }
+};
+
+// Optimal Approach - Binary Search
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {

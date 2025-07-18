@@ -65,3 +65,42 @@ public:
         return n - cnt - 1;
     }
 };
+
+// Approach 3 - Disjoint Set Union (DSU) with Size
+class Solution {
+    void Union(vector<int>& parent, vector<int>& size, int u, int v) {
+        if(size[u] < size[v]) {
+            parent[u] = v;
+            size[v] += size[u];
+        }
+        else {
+            parent[v] = u;
+            size[u] += size[v];
+        }
+    }
+    int find(vector<int>& parent, int i) {
+        if(parent[i] == i)
+            return i;
+        return parent[i] = find(parent, parent[i]);
+    }
+public:
+    int makeConnected(int n, vector<vector<int>>& connections) {
+        if(connections.size() < n - 1)
+            return -1;
+        vector<int> parent(n);
+        vector<int> size(n);
+        for(int i = 0; i < parent.size(); i++) {
+            parent[i] = i;
+            size[i] = 1;
+        }
+        for(auto& connection : connections) {
+            int u = find(parent, connection[0]);
+            int v = find(parent, connection[1]);
+            if(u != v) {
+                Union(parent, size, u, v);
+                n--;
+            }
+        }
+        return n - 1;
+    }
+};

@@ -3,35 +3,95 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Approach 1 - Using Priority Queue
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
-        unordered_map<char, int> mp;
-        for(int i = 0; i < tasks.size(); i++) {
-            mp[tasks[i]]++;
+        int ans = 0;
+        vector<int> v(26, 0);
+
+        for(char &ch : tasks) 
+            v[ch - 'A']++;
+
+        priority_queue<int> pq;
+        for(int i = 0; i < 26; i++){
+            if(v[i] > 0) 
+                pq.push(v[i]);
         }
-        priority_queue<int, vector<int>, less<int>> pq;
-        for(const auto& pair : mp) {
-            pq.push(pair.second);
-        }
-        int totalTime = 0;
-        while(!pq.empty()) {
-            int time = 0;
-            vector<int> tmp;
-            for(int i = 0; i < n + 1; i++) {
+
+        while(!pq.empty()){
+            vector<int> temp;
+
+            // Doing tasks
+            for(int i = 0; i <= n; i++) {
                 if(!pq.empty()) {
-                    int p = pq.top();
-                    tmp.push_back(p);
+                    int freq = pq.top();
                     pq.pop();
-                    time++;
+                    freq--;
+                    temp.push_back(freq);
                 }
             }
-            for(int i : tmp) {
-                if(--i)
+
+            for(int &i : temp){
+                if(i > 0) 
                     pq.push(i);
             }
-            totalTime += !pq.empty() ? n + 1 : time;
+
+            
+            if(pq.empty())      // Last set of tasks
+                ans += temp.size();
+            else                // Did (n + 1) tasks
+                ans += (n+1);
         }
-        return totalTime;
+        return ans;
+    }
+};
+
+// Approach 2 - Greedy Algorithm
+class Solution {
+public:
+    int leastInterval(vector<char>& tasks, int p) {
+        int n = tasks.size();
+
+        if(p == 0) 
+            return tasks.size();
+        
+        vector<int> counter(26,0);
+        for(char& ch : tasks)
+            counter[ch - 'A']++;
+        
+        sort(begin(counter), end(counter));
+        
+        // Highest Count at end
+        int chunks = counter[25] - 1;
+        int idolSpots = chunks * p;
+        
+        for(int i = 24; i >= 0; i--)
+            idolSpots -= min(chunks, counter[i]);
+        
+        if(idolSpots > 0) 
+            return n + idolSpots;
+        
+        return n;
+    }
+};
+
+// Approach 3 - Using HashMap
+class Solution {
+public:
+    int leastInterval(vector<char>& tasks, int n) {
+        unordered_map<int, int> mp;
+        int maxFreq = 0;
+        int maxFreqCnt = 0;
+        for(char task : tasks) {
+            mp[task]++;
+            if(mp[task] > maxFreq) {
+                maxFreq = mp[task];
+                maxFreqCnt = 1;
+            }
+            else if(mp[task] == maxFreq)
+                maxFreqCnt++;
+        }
+        return max((int)tasks.size(), (maxFreq - 1) * (n + 1) + maxFreqCnt);
     }
 };

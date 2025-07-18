@@ -72,3 +72,58 @@ public:
         return n - numComponents;
     }
 };
+
+// Approach 3 - Disjoint Set Union (DSU) with Rank
+class Solution {
+    void Union(vector<int>& parent, vector<int>& rank, int u, int v) {
+        if(rank[u] < rank[v]) 
+            parent[u] = v;
+        else if(rank[v] < rank[u])
+            parent[v] = u;
+        else {
+            parent[v] = u;
+            rank[u]++;
+        }
+    }
+    int find(vector<int>& parent, int i) {
+        if(parent[i] == i)
+            return i;
+        return find(parent, parent[i]);
+    }
+public:
+    int removeStones(vector<vector<int>>& stones) {
+        int n = stones.size();
+        int maxRow = 0, maxCol = 0;
+
+        for(auto& stone : stones) {
+            maxRow = max(maxRow, stone[0]);
+            maxCol = max(maxCol, stone[1]);
+        }
+
+        vector<int> parent(maxRow + maxCol + 2);
+        vector<int> rank(maxRow + maxCol + 2, 1);
+        for(int i = 0; i < parent.size(); i++)
+            parent[i] = i;
+        unordered_map<int, bool> stoneNodes;
+
+        for(auto& stone : stones) {
+            int rowNode = stone[0];
+            int colNode = stone[1] + maxRow + 1;
+
+            int u = find(parent, rowNode);
+            int v = find(parent, colNode);
+            if(u != v)
+                Union(parent, rank, u, v);
+            stoneNodes[rowNode] = true;
+            stoneNodes[colNode] = true;
+        }
+
+        int numComponents = 0;
+        for(auto& node : stoneNodes) {
+            if(find(parent, node.first) == node.first) 
+                numComponents++;
+        }
+
+        return n - numComponents;
+    }
+};
