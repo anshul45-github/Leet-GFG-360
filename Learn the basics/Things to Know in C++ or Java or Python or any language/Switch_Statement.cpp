@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/problems/java-switch-case-statement3529/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
