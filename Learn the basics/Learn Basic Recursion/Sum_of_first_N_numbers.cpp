@@ -1,4 +1,4 @@
-// TC : O(1), SC : O(1)
+// https://www.geeksforgeeks.org/problems/sum-of-first-n-terms5843/1
 
 #include<bits/stdc++.h>
 using namespace std;
