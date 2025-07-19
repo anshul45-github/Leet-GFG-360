@@ -1,4 +1,4 @@
-// TC : O(N), SC: O(1)
+// https://www.geeksforgeeks.org/problems/sum-of-all-divisors-from-1-to-n4738/1
 
 #include<bits/stdc++.h>
 using namespace std;

@@ -1,4 +1,4 @@
-// TC : O(N), SC : O(1)
+// https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1
 
 #include<bits/stdc++.h>
 using namespace std;

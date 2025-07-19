@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/problems/lcm-and-gcd4516/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
