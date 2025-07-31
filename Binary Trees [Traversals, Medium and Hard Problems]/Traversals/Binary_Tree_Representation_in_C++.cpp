@@ -1,10 +1,8 @@
-// TC : O(1), SC : O(1)
+// https://www.geeksforgeeks.org/problems/binary-tree-representation/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
-// User function Template for C++
-
-/*
 struct node {
   int data;
   struct node *left;
@@ -20,7 +18,6 @@ struct node *newNode(int data) {
   node->right = NULL;
   return (node);
 }
-*/
 
 class Solution{
 public:
