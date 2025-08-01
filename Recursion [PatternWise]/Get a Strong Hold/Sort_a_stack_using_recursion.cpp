@@ -1,17 +1,13 @@
-// TC : O(N ^ 2), SC : O(N) -> recursive
+// https://www.geeksforgeeks.org/problems/sort-a-stack/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
-/*The structure of the class is
-class SortedStack{
+class SortedStack {
 public:
 	stack<int> s;
 	void sort();
 };
-*/
-
-/* The below method sorts the stack s 
-you are required to complete the below method */
 
 void putMin(stack<int>& s, int idx, int mini, bool& added) {
     if(s.size() == idx) {
