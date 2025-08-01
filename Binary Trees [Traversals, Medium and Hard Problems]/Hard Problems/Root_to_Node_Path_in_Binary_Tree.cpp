@@ -1,5 +1,18 @@
+// https://www.geeksforgeeks.org/problems/root-to-leaf-paths/1
+
 #include<bits/stdc++.h>
 using namespace std;
+
+struct Node {
+    int data;
+    struct Node* left;
+    struct Node* right;
+
+    Node(int x) {
+        data = x;
+        left = right = NULL;
+    }
+};
 
 class Solution {
     void getAllPaths(Node* root, vector<int> path, vector<vector<int>>& allPaths) {

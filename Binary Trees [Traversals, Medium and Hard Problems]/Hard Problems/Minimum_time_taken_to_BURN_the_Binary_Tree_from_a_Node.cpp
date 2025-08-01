@@ -1,18 +1,17 @@
+// https://www.geeksforgeeks.org/problems/burning-tree/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
-/*
-  struct Node {
-      int data;
-      Node *left;
-      Node *right;
-
-      Node(int val) {
-          data = val;
-          left = right = NULL;
-      }
-  };
-*/
+struct Node {
+    int data;
+    Node *left;
+    Node *right;
+    Node(int val) {
+        data = val;
+        left = right = NULL;
+    }
+};
 
 class Solution {
     map<Node*, Node*> parent;
