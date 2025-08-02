@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/combination-sum-ii/
-// 40. Combination Sum II
-// Medium
 
 #include<bits/stdc++.h>
 using namespace std;
