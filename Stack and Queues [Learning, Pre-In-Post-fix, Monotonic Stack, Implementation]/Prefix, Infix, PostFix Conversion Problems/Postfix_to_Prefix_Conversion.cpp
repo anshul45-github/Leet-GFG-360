@@ -1,4 +1,5 @@
-// TC : O(N), SC : O(N)
+// https://www.geeksforgeeks.org/problems/postfix-to-prefix-conversion/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
