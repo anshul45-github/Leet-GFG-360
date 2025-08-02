@@ -1,7 +1,9 @@
+// https://www.interviewbit.com/problems/maximum-sum-combinations/
+
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int> Solution::solve(vector<int> &A, vector<int> &B, int C) {
+vector<int> solve(vector<int> &A, vector<int> &B, int C) {
     sort(A.begin(), A.end());
     sort(B.begin(), B.end());
     int n = A.size();
