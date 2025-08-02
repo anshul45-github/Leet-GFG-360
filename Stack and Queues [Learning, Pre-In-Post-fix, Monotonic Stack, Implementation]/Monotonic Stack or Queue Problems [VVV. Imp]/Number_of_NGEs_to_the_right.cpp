@@ -1,4 +1,5 @@
-// TC :  O(N * queries), SC : O(queries)
+// https://www.geeksforgeeks.org/problems/number-of-nges-to-the-right/1
+
 #include<bits/stdc++.h>
 using namespace std;
 

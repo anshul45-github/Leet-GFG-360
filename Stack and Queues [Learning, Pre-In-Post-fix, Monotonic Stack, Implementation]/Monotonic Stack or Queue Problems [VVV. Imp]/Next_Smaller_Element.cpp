@@ -1,7 +1,9 @@
+// https://www.interviewbit.com/problems/nearest-smaller-element/
+
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int> Solution::prevSmaller(vector<int> &A) {
+vector<int> prevSmaller(vector<int> &A) {
     vector<int> smaller;
     stack<int> st;
     for(int i = 0; i < A.size(); i++) {

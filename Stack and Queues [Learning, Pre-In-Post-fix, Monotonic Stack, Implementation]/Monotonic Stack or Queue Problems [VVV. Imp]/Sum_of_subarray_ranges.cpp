@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/sum-of-subarray-ranges/
-// Medium
 
 #include<bits/stdc++.h>
 using namespace std;

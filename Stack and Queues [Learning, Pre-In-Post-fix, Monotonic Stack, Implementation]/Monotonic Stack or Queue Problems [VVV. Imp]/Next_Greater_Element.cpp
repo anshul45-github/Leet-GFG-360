@@ -1,4 +1,5 @@
-// TC : O(M + N)
+// https://leetcode.com/problems/next-greater-element-i/
+
 #include<bits/stdc++.h>
 using namespace std;
 

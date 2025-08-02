@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/remove-k-digits/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -10,8 +12,7 @@ public:
             return num;
         string res = "";
         stack<char> s;
-        s.push(num[0]);
-        for(int i = 1; i < num.size(); i++) {
+        for(int i = 0; i < num.size(); i++) {
             while(k && !s.empty() && s.top() > num[i]) {
                 s.pop();
                 k--;
