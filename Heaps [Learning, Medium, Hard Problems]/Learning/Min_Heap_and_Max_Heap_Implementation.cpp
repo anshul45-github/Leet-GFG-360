@@ -1,7 +1,25 @@
+// https://www.geeksforgeeks.org/problems/operations-on-binary-min-heap/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
-int MinHeap::extractMin() 
+int heap_size = 0;
+int capacity = 1000; // Initial capacity of the heap
+int *harr = new int[capacity];
+
+int parent(int i) {
+    return (i - 1) / 2;
+}   
+
+int left(int i) {
+    return 2 * i + 1;
+}
+
+int right(int i) {
+    return 2 * i + 2;
+}
+
+int extractMin() 
 {
     if(heap_size == 0)
         return -1;
@@ -13,7 +31,7 @@ int MinHeap::extractMin()
 }
 
 //Function to delete a key at ith index.
-void MinHeap::deleteKey(int i)
+void deleteKey(int i)
 {
     if(i > heap_size - 1 || heap_size == 0)
         return;
@@ -22,7 +40,7 @@ void MinHeap::deleteKey(int i)
 }
 
 //Function to insert a value in Heap.
-void MinHeap::insertKey(int k) 
+void insertKey(int k) 
 {
     if(heap_size == capacity)
         return;
@@ -31,7 +49,7 @@ void MinHeap::insertKey(int k)
 }
 
 //Function to change value at ith index and store that value at first index.
-void MinHeap::decreaseKey(int i, int new_val) 
+void decreaseKey(int i, int new_val) 
 {
     harr[i] = new_val;
     while (i != 0 && harr[parent(i)] > harr[i]) {
@@ -43,7 +61,7 @@ void MinHeap::decreaseKey(int i, int new_val)
 /* You may call below MinHeapify function in
    above codes. Please do not delete this code
    if you are not writing your own MinHeapify */
-void MinHeap::MinHeapify(int i) 
+void MinHeapify(int i) 
 {
     int l = left(i);
     int r = right(i);
