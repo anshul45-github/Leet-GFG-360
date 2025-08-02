@@ -7,43 +7,40 @@ using namespace std;
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
-        int ans = 0;
-        vector<int> v(26, 0);
+        unordered_map<char, int> freq;
+        for(char task : tasks) 
+            freq[task]++;
 
-        for(char &ch : tasks) 
-            v[ch - 'A']++;
+        // Max heap for frequencies (use negative to simulate max-heap)
+        priority_queue<int> maxHeap;
+        for(auto entry : freq) 
+            maxHeap.push(entry.second);
 
-        priority_queue<int> pq;
-        for(int i = 0; i < 26; i++){
-            if(v[i] > 0) 
-                pq.push(v[i]);
-        }
+        int time = 0;
 
-        while(!pq.empty()){
+        while(!maxHeap.empty()) {
             vector<int> temp;
+            int cycle = n + 1;
 
-            // Doing tasks
-            for(int i = 0; i <= n; i++) {
-                if(!pq.empty()) {
-                    int freq = pq.top();
-                    pq.pop();
-                    freq--;
-                    temp.push_back(freq);
-                }
+            // Try to run up to n+1 tasks in each cycle
+            while(cycle > 0 && !maxHeap.empty()) {
+                int curr = maxHeap.top(); maxHeap.pop();
+                if(curr > 1) 
+                    temp.push_back(curr - 1);
+                time++;
+                cycle--;
             }
 
-            for(int &i : temp){
-                if(i > 0) 
-                    pq.push(i);
-            }
+            // Push remaining back into heap
+            for(int remaining : temp) 
+                maxHeap.push(remaining);
 
-            
-            if(pq.empty())      // Last set of tasks
-                ans += temp.size();
-            else                // Did (n + 1) tasks
-                ans += (n+1);
+            // If tasks remain and we used less than n+1 time, we need idle time
+            if(!maxHeap.empty()) 
+                time += cycle; // add idle time
         }
-        return ans;
+
+        return time;
     }
 };
 

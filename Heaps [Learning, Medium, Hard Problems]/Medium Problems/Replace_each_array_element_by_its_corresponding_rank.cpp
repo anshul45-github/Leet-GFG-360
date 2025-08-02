@@ -1,3 +1,8 @@
+// https://www.geeksforgeeks.org/problems/replace-elements-by-its-rank-in-the-array/1
+
+#include<bits/stdc++.h>
+using namespace std;
+
 class cmp {
 public:
     bool operator() (pair<int, int> p1, pair<int, int> p2) {
