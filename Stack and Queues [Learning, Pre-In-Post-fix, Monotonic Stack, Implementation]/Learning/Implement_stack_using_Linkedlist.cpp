@@ -1,5 +1,17 @@
+// https://www.geeksforgeeks.org/problems/implement-stack-using-linked-list/1
+
 #include<bits/stdc++.h>
 using namespace std;
+
+struct StackNode {
+    int data;
+    StackNode* next;
+    
+    StackNode(int x) {
+        data = x;
+        next = NULL;
+    }
+};
 
 class MyStack {
   private:

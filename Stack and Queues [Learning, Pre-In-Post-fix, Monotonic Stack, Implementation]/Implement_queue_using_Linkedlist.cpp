@@ -1,7 +1,8 @@
+// https://www.geeksforgeeks.org/problems/implement-queue-using-linked-list/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
-/* Structure of a node in Queue
 struct QueueNode
 {
     int data;
@@ -13,16 +14,14 @@ struct QueueNode
     }
 };
 
-And structure of MyQueue
 struct MyQueue {
     QueueNode *front;
     QueueNode *rear;
     void push(int);
     int pop();
     MyQueue() {front = rear = NULL;}
-}; */
+};
 
-//Function to push an element into the queue.
 void MyQueue:: push(int x) {
     if(!rear && !front) {
         front = new QueueNode(x);
@@ -34,7 +33,6 @@ void MyQueue:: push(int x) {
     return;
 }
 
-//Function to pop front element from the queue.
 int MyQueue :: pop()
 {
     if(front == NULL)

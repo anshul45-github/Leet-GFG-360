@@ -1,12 +1,9 @@
-// TC : O(1), SC : O(1)
+// https://www.geeksforgeeks.org/problems/implement-stack-using-array/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
-// Function to push an integer into the stack.
-
-/*
-class MyStack
-{
+class MyStack {
 private:
     int arr[1000];
     int top;
@@ -15,19 +12,16 @@ public:
     int pop();
     void push(int);
 };
-*/
 
 void MyStack ::push(int x) {
     top++;
     arr[top] = x;
-    return;
 }
 
 // Function to remove an item from top of the stack.
 int MyStack ::pop() {
     if(top == -1)
         return -1;
-    int peek = arr[top];
     top--;
-    return peek;
+    return arr[top + 1];
 }

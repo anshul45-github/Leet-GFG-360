@@ -1,36 +1,38 @@
-// Amortized time complexity for each operation : O(1)
+// https://leetcode.com/problems/implement-queue-using-stacks/
+
 #include<bits/stdc++.h>
 using namespace std;
 
 class MyQueue {
-    stack<int> ip;
-    stack<int> op;
+    stack<int> st1;
+    stack<int> st2;
 public:
-    MyQueue() {}
+    MyQueue() {
+        
+    }
     
     void push(int x) {
-        ip.push(x);
-        return;
+        st1.push(x);
     }
     
     int pop() {
-        int k = peek();
-        op.pop();
-        return k;
+        int x = peek();
+        st2.pop();
+        return x;
     }
     
     int peek() {
-        if(op.empty()) {
-            while(!ip.empty()) {
-                op.push(ip.top());
-                ip.pop();
+        if(st2.empty()) {
+            while(!st1.empty()) {
+                st2.push(st1.top());
+                st1.pop();
             }
         }
-        return op.top();
+        return st2.top();
     }
     
     bool empty() {
-        return ip.empty() && op.empty();
+        return st1.empty() && st2.empty();
     }
 };
 
