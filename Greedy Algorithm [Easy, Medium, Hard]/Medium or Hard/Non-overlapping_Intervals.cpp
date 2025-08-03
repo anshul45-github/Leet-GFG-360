@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/non-overlapping-intervals/
-// Medium
 
 #include<bits/stdc++.h>
 using namespace std;

@@ -1,11 +1,4 @@
 // https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
-// Medium
-
-// Given a set of N jobs where each job i has a deadline and profit associated with it.
-
-// Each job takes 1 unit of time to complete and only one job can be scheduled at a time.
-
-// The task is to find the maximum profit and the number of jobs done.
 
 #include<bits/stdc++.h>
 using namespace std;

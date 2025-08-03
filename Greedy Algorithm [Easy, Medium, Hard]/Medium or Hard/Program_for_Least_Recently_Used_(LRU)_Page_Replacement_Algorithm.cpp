@@ -1,4 +1,5 @@
-// TC : O(N * C), SC : O(C)
+// https://www.geeksforgeeks.org/problems/page-faults-in-lru5603/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
