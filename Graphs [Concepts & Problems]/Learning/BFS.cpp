@@ -9,16 +9,18 @@ class Solution {
         queue<int> q;
         q.push(0);
         vector<bool> vis(adj.size(), false);
+        vis[0] = true;
         vector<int> ans;
         while(!q.empty()) {
             int u = q.front();
             q.pop();
-            if(vis[u])
-                continue;
             ans.push_back(u);
-            vis[u] = true;
-            for(int n : adj[u])
-                q.push(n);
+            for(int n : adj[u]) {
+                if(!vis[n]) {
+                    vis[n] = true;
+                    q.push(n);
+                }
+            }
         }
         return ans;
     }
