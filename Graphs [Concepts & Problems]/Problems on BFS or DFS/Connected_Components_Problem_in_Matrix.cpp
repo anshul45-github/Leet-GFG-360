@@ -1,6 +1,8 @@
-// TC : O(V^2), SC : O(V)
+// https://www.geeksforgeeks.org/problems/number-of-provinces/1
+
 #include<bits/stdc++.h>
 using namespace std;
+
 
 class Solution {
     void dfs(vector<vector<int>>& adjList, vector<bool>& vis, int curr) {

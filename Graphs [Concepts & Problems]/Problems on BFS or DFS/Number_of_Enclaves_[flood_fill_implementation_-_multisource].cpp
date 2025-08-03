@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/number-of-enclaves/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -30,10 +32,8 @@ public:
         int cnt = 0;
         for(int i = 1; i < n - 1; i++) {
             for(int j = 1; j < m - 1; j++) {
-                if(grid[i][j] == 1) {
-                    // dfs(grid, i, j, n, m);
+                if(grid[i][j] == 1) 
                     cnt++;
-                }
             }
         }
         return cnt;
