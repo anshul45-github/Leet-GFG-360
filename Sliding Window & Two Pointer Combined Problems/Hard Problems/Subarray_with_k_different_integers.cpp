@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/subarrays-with-k-different-integers/
-// 992. Subarrays with K Different Integers
-// Hard
 
 #include<vector>
 #include<unordered_map>
