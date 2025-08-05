@@ -3,6 +3,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Here we are using DFS to find the topological order of the DAG instead of Djikstra's algorithm as the graph is a DAG and in a DAG, the shortest path can be found using topological sorting and is more efficient than Djikstra's algorithm.
+
 class Solution {
     void dfs(vector<vector<vector<int>>>& adj, int curr, vector<bool>& vis, stack<int>& st) {
         if(vis[curr])
