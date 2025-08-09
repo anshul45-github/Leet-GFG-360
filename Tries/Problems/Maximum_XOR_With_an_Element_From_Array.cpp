@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/maximum-xor-with-an-element-from-array/
-// 1707. Maximum XOR With an Element From Array
-// Hard
 
 #include<vector>
 #include<algorithm>

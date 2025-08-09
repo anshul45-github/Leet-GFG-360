@@ -1,3 +1,5 @@
+// https://www.naukri.com/code360/problems/count-distinct-substrings_985292
+
 #include<bits/stdc++.h>
 using namespace std;
 

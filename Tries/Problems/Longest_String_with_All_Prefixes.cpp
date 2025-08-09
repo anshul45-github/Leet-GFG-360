@@ -1,7 +1,7 @@
+// https://www.naukri.com/code360/problems/complete-string_2687860
+
 #include<bits/stdc++.h>
 using namespace std;
-
-#include <bits/stdc++.h> 
 
 class Trie {
     Trie* children[26];
