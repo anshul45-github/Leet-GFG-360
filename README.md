@@ -1,6 +1,7 @@
 # DSA Solutions: Striver's A2Z DSA Sheet
 ## 👋 About This Repo
-Welcome! This repository is my personal logbook and collection of solutions for the problems featured in the highly-regarded **Striver's A2Z DSA Sheet.**
+This repo is my structured collection of 400+ solved problems from Striver's A2Z DSA Sheet. It reflects my systematic approach to mastering DSA concepts for coding interviews and competitive programming.
+**Languages:** Solutions primarily in **C++**, with plans to add **Python/Java** versions.  
 
 ### From General Practice to a Focused Goal
 This repository started as a general collection of my solutions to various problems from platforms like LeetCode and GeeksforGeeks. I am currently in the process of **restructuring and refocusing** this entire repository to exclusively follow and solve the A2Z DSA Sheet, topic by topic.
@@ -36,22 +37,16 @@ The **target structure** I am working towards is as follows:
 
 This will make it much easier to navigate and track progress against the sheet.
 
-## 🤝 How to Contribute
-Since this is an active refactoring repo, contributions are highly welcome and appreciated! You can help in several ways:
+## 🤝 Contributions
 
-- **Adding New Solutions:** If you see a problem from the sheet that's missing, feel free to add a solution.
-- **Restructuring:** Help move existing solution files from the old folders into the new, structured directories.
-- **Improving Solutions:** Suggest optimizations or add comments to existing solutions.
-- **Adding Other Languages:** While all solutions are in C++, adding versions in **Java** or **Python** would be a fantastic contribution.
-
-### Contribution Steps:
-1. **Fork** the Project.
-2. Create your Feature Branch (`git checkout -b feature/YourContribution`).
-3. **Commit** your Changes (`git commit -m 'Add some YourContribution'`).
-4. **Push** to the Branch  (`git push origin feature/YourContribution`).
-5. Open a **Pull Request.**
+This repo is primarily for personal practice, but suggestions for optimization are welcome.
 
 ## 🙏 Acknowledgements
 A huge thank you to **Raj Vikramaditya (Striver)** for creating this incredible DSA sheet and for his invaluable contribution to the programming community through his YouTube channel [takeUforward](https://www.youtube.com/channel/UCJskGeByzRRSvmOyZOz61ig).
+
+## 🔗 My Coding Profiles
+- 💻 [LeetCode Profile](https://leetcode.com/u/anshulmendiratta10d)  
+- 📊 [Codeforces Profile](https://codeforces.com/profile/anshull.45)  
+
 
 ### Happy Coding! ✨
